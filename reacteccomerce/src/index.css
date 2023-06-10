@@ -1,0 +1,13 @@
+nav {
+  background-color: #DB7093;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}
+
+nav > h2 {
+position: relative;
+left:60;
+
+}

@@ -1,0 +1,22 @@
+[
+    {
+        "id":"1",
+        "name":"Shoes",
+        "price": 1000,
+        "imgUrl": "./images/shoes.png"
+     },
+     {
+        "id":"2",
+        "name":"Pants",
+        "price": 2000,
+        "imgUrl": "./images/pants.png"
+     },
+    
+    {
+            "id":"3",
+            "name":"Tshirt",
+            "price": 1500,
+            "imgUrl": "./images/tshirt.png"
+     }
+    
+]
