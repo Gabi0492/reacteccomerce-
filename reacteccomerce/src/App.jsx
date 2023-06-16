@@ -5,10 +5,13 @@ import { ItemList } from "./components/ItemList";
 import { Navbar } from "./components/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Shoppingcart } from "./components/Shoppingcart";
+import { ShoppingCartProvider } from "./contents/ShoppingCartContext";
 
 export const App = () => {
   return (
-    <Router>
+
+    <ShoppingCartProvider>
+          <Router>
       <Navbar />
       <Routes>
       <Route path="/" element= {<ItemList />} />
@@ -18,8 +21,11 @@ export const App = () => {
       </Routes>
       
     </Router>
-  )
-}
+
+    </ShoppingCartProvider>
+
+  );
+};
 
 
 export default App
